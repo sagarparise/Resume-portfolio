@@ -652,6 +652,12 @@ width:50%;
 {
     display: block;
 }
+#msg
+{
+    margin-top: -10px;
+    color: #7b7979;
+   text-align: center;
+}
 
 /* -----------media-Query--------- */
 @media screen and (max-width:1200px) {
