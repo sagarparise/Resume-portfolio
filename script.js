@@ -3,6 +3,7 @@ let tablinks=document.getElementsByClassName("tab-links");
 let tabcontests=document.getElementsByClassName("tab-contents");
 let navlinks = document.querySelector(".nav-links");
 let menu = document.querySelector("nav > img");
+let modeIcon = document.getElementById("mode-icon");
 
 function opentab(tabname)
 {
@@ -24,5 +25,16 @@ function opentab(tabname)
 menu.addEventListener("click", function(){
     navlinks.classList.toggle("show");
 })
+modeIcon.onclick = function(){
+    document.body.classList.toggle("light-theme");
+    if( document.body.classList.contains("light-theme"))
+    {
+        modeIcon.src = "images/ni-mode.png"
+    }
+    else
+    {
+        modeIcon.src ="images/dk-mode (1).png"
+    }
+}
 
 
