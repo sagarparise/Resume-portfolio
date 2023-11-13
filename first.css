@@ -146,10 +146,9 @@ nav ul li a:hover::after
 {
  
     width: 90%;
-    height: 70%;
+    height: 85%;
     margin: auto;
     padding: 10px;
-    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -870,16 +869,22 @@ width:50%;
     {
         margin: auto;
     }
-   
+    #header
+    {
+       height: 75vh;
+        padding-top: 50px;
+    }
     #hero-body
     {
         flex-direction: column;
-        height: 60%;
+        justify-content:center;
+        gap: 0px;
+        height: 100%;
     }
     .img-sec
     {
-    width: 260px;
-     height: 180px;
+    width: 280px;
+     height: 190px;
     }
     .nav-links 
     {
